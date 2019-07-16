@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-    let topics = ['47 RONIN','FLYING','THE MATRIX','SPEED', 'SIBERIA'];  
+    let topics = ['SPEED','POINT BREAK','PARENTHOOD','THE MATRIX'];  
     
     var i;
     for (i = 0; i < topics.length; i++) { 
@@ -41,8 +41,11 @@ $( document ).ready(function() {
                 $("#gifContainer").append(`<div class="container-wrap-wrap" id="gifBadges">
                                                 <div id= "${value.id}" class="gifImage"> 
                                                 <img class="toggleAnimate" src="${value.images.fixed_width_still.url}" 
+                                                height="150px" width="150px"
                                                 data-still= "${value.images.fixed_width_still.url}" 
+                                                height="150px" width="150px"
                                                 data-animate= "${value.images.fixed_width.url}"
+                                                height="150px" width="150px"
                                                 data-state="still" class="gif"</img></div>
                                                 <div class="rating"> Rating: ${value.rating.toUpperCase()}</div>
                                             </div>`);
@@ -77,7 +80,6 @@ $( document ).ready(function() {
         event.preventDefault();
         addNew();
     });
-
     $("#add").click(function(event){
         event.preventDefault();
         addNew();
