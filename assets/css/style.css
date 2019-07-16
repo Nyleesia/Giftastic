@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Black+Ops+One|Damion|Italianno|Parisienne|Playball&display=swap');
+
+body{
+    background-image: URL("http://pavbca.com/walldb/original/8/3/b/418279.jpg");
+    background-repeat: no-repeat;
+    opacity: 1.0;
+}
+
+#main-container{
+    max-width: 960px;
+    margin: auto;
+    max-height: 900px;
+}
+
+#top-jumbotron{
+    text-align: center;
+    padding: 5px;
+    opacity: 0.90;
+    border-bottom: darkgray 2px solid;
+}
+
+#top-jumbotron h1{
+font-size: 30px;
+font-family:  'Black Ops One', cursive;
+}
+
+#intro{
+    opacity: 1.0;
+    background-color: lightgray; 
+    color: black; 
+    margin-bottom: 10px;
+    opacity: 0.75;
+    text-align: center;
+    width:25%;
+    margin-left: 15px;
+    border-radius: 5px;
+    border:  darkgray 2px solid;
+}
+
+.gifImage {
+    margin: 10px;
+}
+
+.gifImage:hover {
+    cursor: pointer;
+}
+
+
+#gifContainer{
+    clear:both;
+    max-width: 500px; 
+    margin:auto;
+}
+
+.gifSearch{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#topicsBar{
+    max-width: 95%;
+    margin:auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#searchBar{
+max-width: 60%;
+margin:auto;
+align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+}
+
+#newRequest{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#add{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#main-container #gifContainer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 90%;
+    flex-wrap: wrap;
+    border:darkgray 2px solid;
+}
+
+#gifBadges{
+    width: 250px;
+    height: 250px;
+}
+
+#gifBadges .gifImage{
+    display: flex;
+    justify-content: center;
+    border:  darkgray 2px solid;
+
+}
+
+#gifBadges .rating{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    border-top: darkgray 2px solid;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
