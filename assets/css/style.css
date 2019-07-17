@@ -128,4 +128,22 @@ justify-content: center;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 30px;
+    height: 75px;
+}
+
+footer{
+    width:90%;
+    float: left
+}
+
+.gif{
+    float: right;
+    height: 75px;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+.gif .para{
+    font-style: italic;
+    font-size: 10px;
 }
